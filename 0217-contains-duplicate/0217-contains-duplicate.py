@@ -3,5 +3,5 @@ class Solution:
         dic = {}
         for i in nums: # O(n)
             if i not in dic: dic[i] = True
-            elif i in dic: return True
+            else: return True
         return False
